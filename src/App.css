@@ -10,9 +10,11 @@
   }
   
   body {
-	padding: auto;
-	margin: auto;
-	background: url(7477790.png);
+	padding: 0; 
+	margin: 0; 
+	background-image: url('weather.webp'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
   }
   
   .app-name {
@@ -135,7 +137,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	color: #fff;
+	color: #131212;
 	background: lightskyblue;
 	position: fixed; /* Fixed position at the top */
 	top: 0; /* Stick to the top */
@@ -150,7 +152,7 @@
   }
   
   .App .navbar .nav-links > a {
-	color: #fff;
+	color: #0f0e0e;
 	text-decoration: none;
   }
   
@@ -163,7 +165,7 @@
   
 .login-signup-container {
   max-width: 400px;
-  width: 100%;
+  width: auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -172,6 +174,7 @@
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 label {
@@ -185,7 +188,7 @@ input {
 
 button {
   background-color: #4caf50;
-  color: white;
+  color: rgb(7, 7, 7);
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -201,3 +204,15 @@ p {
   cursor: pointer;
   color:#1e2432;
 }
+
+.logged-in-button {
+	background-color: #4caf50;
+  color: rgb(7, 7, 7);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 100px;
+  width: 350px;
+  font-size: 25px;
+  }
